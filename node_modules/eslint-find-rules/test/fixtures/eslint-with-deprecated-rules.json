@@ -1,0 +1,14 @@
+{
+  "plugins": [
+    "plugin",
+    "@scope/scoped-plugin"
+  ],
+  "rules": {
+    "foo-rule": [2],
+    "old-rule": [2],
+    "plugin/foo-rule": [2],
+    "plugin/old-plugin-rule": [2],
+    "scoped-plugin/foo-rule": [2],
+    "scoped-plugin/old-plugin-rule": [2]
+  }
+}
