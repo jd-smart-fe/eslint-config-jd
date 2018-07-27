@@ -6,6 +6,8 @@ module.exports = {
       js: 'never',
       vue: 'never',
     }],
+    'import/imports-first': 0,
+    'import/no-dynamic-require': 0,
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
     'no-use-before-define': ['error', { functions: false, }],
     'no-unused-vars': 0,
