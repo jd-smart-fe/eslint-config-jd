@@ -5,7 +5,10 @@
  本项目以eslint-config-airbnb-base为基础，定制出了符合团队现状的ESLint 配置。
 
 ## 添加的规则
- 'no-restricted-syntax': ['off', "BinaryExpression[operator = 'in']"],
+
+``` javascript
+ {
+  'no-restricted-syntax': ['off', "BinaryExpression[operator = 'in']"],
   // don't require .vue extension when importing
   'import/extensions': ['error', 'always', {
     js: 'never',
@@ -26,3 +29,5 @@
   'linebreak-style': 0,
   'max-len': 0,
   'import/no-extraneous-dependencies': 0,
+ }
+```
