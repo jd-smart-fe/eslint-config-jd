@@ -7,7 +7,7 @@ module.exports = {
     './rules/variables',
     './rules/es6',
     './rules/imports',
-    './rules/jdsmart',
+    './rules/jd',
   ].map(require.resolve),
   parserOptions: {
     ecmaVersion: 2018,

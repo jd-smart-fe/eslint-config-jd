@@ -1,4 +1,4 @@
-# eslint-config-jdsmart
+# eslint-config-jd
 
 ## 简介
 
